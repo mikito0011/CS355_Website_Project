@@ -1,0 +1,177 @@
+body{
+  background-color: rgba(169,169,169, 0.5);
+  margin-right: auto;
+margin-left : auto;
+}
+h2{
+  text-align:center;
+}
+.jumbotron{
+  color:rgba(220,220,220, 0.8);
+  background-image:url("milky-way-2750627_1280.jpg");
+  background-size: cover;
+}
+.jumbotron p{
+  font-size:20px;
+}
+.nav-item{
+  position:relative;
+  width:100%;
+
+}
+.nav-item img{
+  width:45px;
+  height:45px;
+  }
+.nav-link{
+  font-size:22px;
+  color: rgba(255, 255, 255, .8);
+}
+.nav-link:hover{
+  color: rgba(255, 255, 255, 1);
+
+}
+.dropdown:hover > .dropdown-menu{
+  display: block;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.container h1{
+  text-align:center;
+  padding-top:10px;
+}
+.container{
+  padding-top:60px;
+  margin: 0 auto;
+}
+.container h2{
+  padding-top:30px;
+}
+.container p {
+  font-size:16px;
+}
+.browser h2{
+  margin-top:40px;
+  margin-bottom:10px;
+}
+.browser h3{
+  font-size:25px;
+}
+#aboutMe{
+  dispaly:inline-block;
+  padding:40px;
+  margin:0 auto;
+  width:80%;
+}
+/* contact us */
+.form-container h2{
+  padding-top:10px;
+}
+.form-container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  margin-top:90px;
+  margin-left:50px;
+  margin-right:50px;
+}
+.form-content{
+  padding:0px 20px;
+}
+
+input[type=text], input[type = email], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+textarea{
+  margin-bottom:15px;
+}
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color:#239b76;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  opacity:0.8;
+  width:100px;
+  margin-top:5px;
+}
+input[type=submit]:hover{
+  opacity:1;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+/* For file.html and google.html */
+.input-group,#searchbox{
+  width:80%;
+  margin:auto;
+}
+
+.example input[type=text] {
+  font-size: 17px;
+  float: left;
+  width: 95%;
+}
+.input-group-btn{
+  display:inline-block;
+  width:5%;
+  float:left;
+}
+form.example button {
+  color: rgba(70,136,241, 0.8);
+}
+form.example button:hover{
+  color: rgba(70,136,241, 1);
+
+}
+
+.selections, .save{
+  display:none;
+  margin:auto;
+  width:80%;
+
+}
+.selections{
+  padding-top:15px;
+}
+.btn{
+  margin:3px;
+}
+.results{
+  padding-top:5px;
+  margin:auto;
+  width:80%;
+}
